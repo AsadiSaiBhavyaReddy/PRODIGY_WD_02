@@ -61,6 +61,7 @@ body {
 .laps li {
   font-size: 1.4rem;
   margin-bottom: 10px; 
+  color: black;
 }
 
 .active {
