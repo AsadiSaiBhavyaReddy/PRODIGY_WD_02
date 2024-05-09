@@ -1,0 +1,109 @@
+body {
+  background-color: #b38c8c; /* Dark red background for the whole page */
+  color: #ffffff; /* White text color */
+  font-size: 1.2rem; /* Increase the base font size */
+}
+
+.App {
+  text-align: center;
+}
+
+.stopwatch {
+  margin-top: 50px;
+}
+
+.clock {
+  border-radius: 50%;
+  width: 250px; /* Increase width of the clock */
+  height: 250px; /* Increase height of the clock */
+  background-color: #b25151; /* Light red background for the clock */
+  color: #ffffff; /* White text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem; /* Increase font size of the clock */
+  margin: 0 auto; 
+  border: 2px solid black;
+}
+
+.buttons {
+  margin-top: 30px; /* Increase margin top for the buttons */
+}
+
+.time {
+  font-size: 4rem; /* Increase font size of the timer */
+  margin-bottom: 1.5rem; /* Increase margin bottom of the timer */
+}
+
+.buttons button {
+  margin:  0.5rem;
+  padding: 1rem 2rem; /* Increase padding of the buttons */
+  font-size: 1.2rem; /* Increase font size of the buttons */
+  cursor: pointer;
+  background-color: #ffffff; /* White background for buttons */
+  color: #b25151; /* Dark red text color for buttons */
+  border: none; /* Remove button border */
+  border-radius: 10px; /* Rounded button corners */
+  border: 2px solid black;
+}
+
+.buttons button:hover {
+  background-color: #b25151; /* Red background on hover */
+  color: #ffffff; /* White text color on hover */
+}
+
+.laps {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px; /* Increase margin top for the laps */
+}
+
+.laps li {
+  font-size: 1.4rem; /* Increase font size of the laps */
+  margin-bottom: 10px; /* Increase margin bottom of the laps */
+}
+
+.active {
+  background-color: #ffffff; /* White background for active button */
+  color: #b25151; /* Dark red text color for active button */
+}
+
+.card {
+  width: 100%;
+  max-width: 400px; 
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  transition: box-shadow 0.3s; 
+}
+
+.card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8); 
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.info {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: darkred;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #b30000;
+}
